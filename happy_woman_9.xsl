@@ -15,7 +15,7 @@
             </head>
             <body>
                 <p class="special">See the source <a href="happy_woman_9.xml">XML</a>, <a
-                    href="happy_woman_9.xsl">XSLT</a>, and <a href="happy_woman_9.css">CSS</a>.</p>
+                    href="happy_woman_9.xsl">XSLT</a>, and <a href="happy_woman.css">CSS</a>.</p>
                 <xsl:apply-templates/>
             </body>
         </html>
