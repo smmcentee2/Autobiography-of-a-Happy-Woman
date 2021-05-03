@@ -1,5 +1,7 @@
 ## Autobiography of a Happy Woman
 
+### [View the Index](https://github.com/smmcentee2/Autobiography-of-a-Happy-Woman/blob/2419e14ba43afbba36b08c4d248249d8c2e1c839/docs/index.html)
+
 ## Foreward Material
 
 ## Chapter 7
