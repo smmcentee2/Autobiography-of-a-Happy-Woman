@@ -1,0 +1,169 @@
+<?xml-model href="tei_all.rng" type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="basicTEI.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- In the above line, change the xml:id to the id of your file-->
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Man in the Cage [excerpt]</title>
+                <!-- The Man in the Cage-->
+            </titleStmt>
+
+
+            <!-- The following section records information about who is publishing this file. -->
+            <editionStmt>
+                <edition>
+                    <date>May 1914</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Moffat, Yard, and Company</publisher>
+
+                <date>May 1914</date>
+
+            </publicationStmt>
+
+            <!-- A place to record additional info about the material -->
+            <notesStmt>
+                <note type="project"/>
+            </notesStmt>
+
+
+            <!-- This section describes the source, i.e., the document(s) you are encoding. -->
+
+            <sourceDesc>
+                <bibl>
+                    <!-- Insert title and date again here -->
+                    <title level="a">The Autobiography of a Happy Woman</title>
+                    <editor/>
+                    <!-- Make an author line for each one mentioned in the piece. -->
+                    <author>Anonymous</author>
+                    <date>1914</date>
+                    <!-- Note that @when allows a regularized form of the date -->
+                    <publisher>Moffat, Yard, and Company</publisher>
+                    <pubPlace><!-- place of publication --></pubPlace>
+                    <orgName> </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+
+
+        <!-- This section records whose hands have been in the file. -->
+
+        <revisionDesc>
+            <change when="20210302">
+                <name><!-- your name --></name>
+                <!-- brief description of what you did --></change>
+
+            <change when="20210302">
+                <name>Colleen Schlemmel</name> Encoded Passage</change>
+        </revisionDesc>
+    </teiHeader>
+
+
+    <!-- START ENCODING DOCUMENT HERE -->
+    <text>
+        <body>
+            <div type="dedication">
+                <salute> To those who work by one who works</salute>
+            </div>
+
+            <div type="Publishers'Note"> </div>
+
+            <div>
+                <fw place="top">Publishers' Note</fw>
+                <head> Publishers' Note</head>
+
+                <p>The publishers are pledged not to reveal the identity of the author of this
+                    remarkable book. For reasons which will be obvious to any reader of the book ,
+                    the author has made this a condition of its publication . But it is a fact that
+                    the author is a woman well known as a writer and worker and the book is the
+                    story of her life ; it traces her growth from childhood up ; it shows the
+                    physical and mental and spiritual growth of the writer; the struggle and stress,
+                    the hopes and joys of the girl and woman; the development of her philosophy of
+                    hope and happiness.</p>
+                <p>The narrative is very human , depicting as it does the thoughts and feelings of
+                    first the young girl, then the woman on all the important phases of life's
+                    problems.</p>
+                <p>It is an inspiring book, for it : breathes. through its pages the note of a
+                    spirit, strong in its power to suffer and stronger still in its power to hope
+                    and enjoy. It is a helpful and suggestive book , for it unfolds new vistas of
+                    thought and ideas.</p>
+                <p> It teaches the gospel of self-forgetfulness, through happy and useful work .</p>
+                <p>“ Be busy and there will be no time for self pity or worry," has been one of the
+                    author's principles. To countless women to -day the book will carry its message
+                    of hopefulness and cheer.</p>
+                <p> It is so sane, so human , so sincere, and so intensely interesting — this true
+                    story of a woman 's hopes and fears and inspirations.</p>
+
+                <pb/>
+            </div>
+
+
+            <div>
+                <fw place="top"> Foreword</fw>
+                <head> Foreword</head>
+                <p>It need hardly be stated here— these are the random thoughts of a busy woman ,
+                    and of a woman who is happy because she works. Woman in industry is no new
+                    phenomenon in the world . Women have been in industry since time began , since “
+                    Adam delved and Eve span .” Only in modern days industry has gone out of the
+                    home; and woman has followed it out. Industrious women have been in industry
+                    from creation. It is no new problem . It is an old problem projected out into
+                    the complexities of a fearfully complicated modern world .</p>
+                <p>Nor are these thoughts a series of fairy stories, of theories as to how things
+                    ought to be. They are narratives of fact, as to how things are, disguised so
+                    slightly as not to disguise in the least, the thread of absolute truth . For
+                    disguises there are. Each chapter is a record of a segment from a life. These
+                    records could not have been given except on condition that the persons should
+                    remain anonymous.</p>
+                <p>The whole series sprang from a chance remark in an editorial office one day. The
+                    world ir was talking about a wail of woe purporting to come from a woman who
+                    worked. It didn't ring true. The woman set out to pity herself ; and she
+                    succeeded admirably ; but the serio comic thing is — the workers don't wail. I
+                    work ; and love it. All the women I know , who are worth knowing, work in the
+                    home, or out of it, and glory in work . I say this irrespective of the fact,
+                    whether they own a mill, or a million. The happy women are the women who work ;
+                    the unhappy ones, those who are idle . I turned and asked the editor why we were
+                    voicing the wail of woe, when all the women he knew , who were worth while , and
+                    all the women I knew , who were worth while were workers. Why didn't we sound
+                    the note of joy for those who sing over their looms?</p>
+                <p>And so the thoughts came forth random -wise - snatched from the days of a busy
+                    woman - in no sense a story, in no sense a plot, simply segments of human life,
+                    hints of things rather than things themselves, an interpretation of woman in the
+                    great modern economic world .</p>
+                <p>The eighteenth century was the century of discovery and exploration. The
+                    nineteenth century was the century of exploitation and invention . Are we
+                    entering on a century when we shall discover, explore and map another world —
+                    the world of spirit powers ? What part is woman going to play in this new world
+                    ? Is it to prepare her for this part that the impetus has come, forcing her into
+                    new arenas, of which even our mothers did not dream ? I don 't know . I only
+                    know the push has come, shoving us out. Where are we going I don't know . I only
+                    know if the day's work be well done we shall arrive at that best of all promised
+                    lands— the Land of Satisfied Souls. These thoughts are not written for married
+                    women ; and they are not written for single women ; and they are not written for
+                    women in the home; and they are not written for women out of the home. They are
+                    written for women who know ; whether they are scrubbing departmental store
+                    stairs, crooning over babies, clipping off dividend coupons, or cheering the
+                    despairing heart of some lover in the struggle. Noisy disputations, the pros
+                    and cons of feminists and anti feminists — have no place here. Why should they ?
+                    Like the feline night-prowlers, they express nothing but their own antagonisms.
+                    Let us watch rather for the white sun -lit spaces of the dewy dawn, when one
+                    must listen for the voices of the Morning and brood over what their music means
+                    as Mary brooded over her Unborn .</p>
+
+            </div>
+        </body>
+    </text>
+</TEI>
