@@ -9,7 +9,7 @@
     <xsl:template match="/"> 
         <html>
                <head>
-                   <link rel="stylesheet" type="text/css" href="Happy_woman.css"/>
+                   <link rel="stylesheet" type="text/css" href="happy_woman.css"/>
                </head>
             <body>
                 <p> source <a href="final%20project.xml">XML</a>, <a href="HappyWoman.xsl">
