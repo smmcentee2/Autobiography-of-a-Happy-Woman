@@ -1,0 +1,222 @@
+<?xml-model href="tei_all.rng" type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="basicTEI.478-878" xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- In the above line, change the xml:id to the id of your file-->
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">The Autobiography of a Happy Woman Chapter XI</title>
+            </titleStmt>
+
+
+            <!-- The following section records information about who is publishing this file. -->
+            <editionStmt>
+                <edition>
+                    <date>May 1914</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Moffat, Yard, and Comapny</publisher>
+
+                <date>May 1914</date>
+
+            </publicationStmt>
+
+            <!-- A place to record additional info about the material -->
+            <notesStmt>
+                <note type="project"/>
+            </notesStmt>
+
+
+            <!-- This section describes the source, i.e., the document(s) you are encoding. -->
+
+            <sourceDesc>
+                <bibl>
+                    <!-- Insert title and date again here -->
+                    <title level="a">The Autobiography of a Happy Woman</title>
+                    <editor/>
+                    <!-- Make an author line for each one mentioned in the piece. -->
+                    <author>Anonymous</author>
+                    <date>1914</date>
+                    <!-- Note that @when allows a regularized form of the date -->
+                    <publisher>Moffat, Yard, and Company</publisher>
+                    <pubPlace><!-- place of publication --></pubPlace>
+                    <orgName> </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+
+
+        <!-- This section records whose hands have been in the file. -->
+
+        <revisionDesc>
+            <change when="20210302">
+                <name><!-- your name --></name>
+                <!-- brief description of what you did --></change>
+
+            <change when="20210302">
+                <name>Colleen Schlemmel</name> Encoded Passage</change>
+        </revisionDesc>
+    </teiHeader>
+
+
+    <!-- START ENCODING DOCUMENT HERE -->
+    <text>
+        <pb n="367"> </pb>
+        <fw place="top"> Chapter XI</fw>
+        <body>
+            <head>An Awakening, or a Revolt?</head>
+            <p>And now we come back to those questions with which this narrative of facts in life
+                set out. Are there any more happy women left on this good green earth ? Do all those
+                married wish to escape from the cage? Do all those unmarried wish to break into the
+                cage? Is suffering, such suffering as Jean Ingelow <ptr xml:id="n8"
+                    target="#JeanIngelow" n="8"/> and Felicia Hemans <ptr xml:id="n9"
+                    target="#FeliciaHemans" n="9"/> voiced , a necessary part of woman 's lot? Is
+                there any virtue, except the virtue of the sheep-type, cowed through stupidity , or
+                timidity , in suffering by women ? Does that suffering help or hurt the race ? Is
+                there a reason on earth why any child should be born in sadness, instead of
+                gladness, with the taint of sadness in its blood and the shadow of tragedy across
+                its soul, instead of that joy and light which brood over the dawn of all nature's
+                days ? Is the unrest among women a revolt; or an awakening? Or is it a re adjustment
+                to new conditions? </p>
+            <p>And these questions are all answered before they are asked. You have but to strip the
+                facts behind them free of pretence and argument; and the interrogation mark behind
+                the question changes to an exclamation of glad surprise. Women are to -day what they
+                have been throughout the history of the race - good wives, good mothers, good "
+                pals, ” good sweet hearts, good sisters. Women in industry are no new thing. Women
+                have been in industry since time began; and the women, who have gone out to factory
+                , to office , to school room , to hospital, to clinic, to platform are but doing,
+                outside the home, what their mothers and grandmothers did inside the home. To take
+                three-quarters of woman 's vocations outside the home, and to leave her with
+                manacled hands inside the home, would be to let her beat her life out against the
+                cave wall of a prison cell in an idleness that would be madness. </p>
+            <p>What, then , of the unrest? What of the wail of woe from the married ; from the un
+                married ; from the idle , who want to work ; and the workers, who want to idle ?
+                Growth is attended with growing pains. Children awakening have been known to be
+                querelous <ptr xml:id="n1" target="#querulous" n="1"/>. Ma chinery being readjusted
+                often creaks and jolts. The hour of all the twenty - four, when the fever falls and
+                the patient takes the turn to recovery and strength is always the darkest hour, just
+                before the dawn. If you know anything about the wonderful secret life of the dumb
+                creation , you will know it is the hour when the animals turn restlessly , when the
+                deer steal from their thickets , when the song birds stab the night air with strange
+                notes before the chorus that greets full day. </p>
+            <p> So do I see it of our own age! Consider the marvelous complexities of the age in
+                which we live ! </p>
+            <p> Formerly, when a woman wished a garment, she carded her own wool. She spun over her
+                own loom . She sewed the cloth with her own hands. To-day, she must not only go out
+                of the home to spin the wool; but she can spin only by permission of the owner of a
+                huge machine, often only by permission of a huge corporation , which controls the
+                means of livelihood of thousands like herself. So of the other vocations that have
+                gone out of the home. Service , she seeks ; Service of the Race , which is the only
+                avenue to Happiness for any human being, rich or poor, fit or misfit ; and that
+                Service she can obtain only by the permission of some other human being. Sometimes
+                she fails to find it altogether, whether she be rich or poor, married or single.
+                Then , there results the scrap heap, the untellable tragedy of an utterly wasted
+                life , the desert-dried soul, wind -tossed and tempestuous <ptr xml:id="n2"
+                    target="#tempestuous" n="2"/>, drab-gray as the arid dust unwatered by the
+                gladness of giving and getting happiness, whether in the passion ate ecstasies of
+                love, or those other as passionate ecstasies of devotion to some work. Is it any
+                wonder there are jolt, clamor, discord ? The seekers for Service are lost seeking —
+                that is all ; and he, or she, who can shed one shaft of radiance to light them to
+                their place, will be the truest helper of to -day . I do not think the scolds will
+                do much. Women are asking “ What must I do to be saved ; to be saved from Self ? ” “
+                What must I do to find some thing to do that is worth while ? " And the scolds are
+                saying, “ Go back and be married ” ; “ Go and get unmarried ” ; “ Drop industrial
+                work and go back to the home” ; “ Drop the home and go out to a vocation .” Women
+                are asking — “ What must I do to be saved from Self ; to find something to do that
+                is worth while ” ; and for bread and meat and light, the scolds are proffering the
+                serpent-envenomed tongue lashing of an ancient fish -wife . I am not keen on the
+                scolds. I don't think they will get us anywhere, for the simple reason that what has
+                happened has not resulted from conscious choice . It has resulted from the
+                compulsion of necessity . </p>
+            <p>Take the unnatural conditions under which much industry is conducted ! There are
+                factories where as many as 9,000 men are employed without a single woman . There are
+                factories where as many as 5 ,000 women are employed under a few dozen men . The
+                grand fathers and grandmothers of these men and women worked together in their
+                vocations. In America, they even worked together in their Indian Wars <ptr
+                    xml:id="n3" target="#IndianWars" n="3"/> and the subjugation of the wilderness ;
+                in monastic foundation and Quaker assembly <ptr xml:id="n4" target="#Quakerassembly"
+                    n="4"/> . To-day, such industrial life has bifurcated <ptr xml:id="n5"
+                    target="#bifurcated" n="5"/> the race , with detriment that need not be given
+                here. How we shall work it out remains to be seen ; but one highest Service to the
+                Race is practically handicapped . Is it surprising there results unrest? </p>
+            <p>And we are no longer going it blind . Afore time, the imbecile was ascribed to the
+                mysterious Will of God . ( I know of twelve imbeciles in one reformatory born of one
+                degenerate mother, all ascribed under the old order to that mysterious Will of a
+                capricious <ptr xml:id="n6" target="#capricious" n="6"/> God.) The unfit, the
+                prenatal failures, the prenatal criminals all were ascribed to Deity . We no longer
+                utter these pious blasphemies. We stand up to the realization of our own human sins
+                and blunders. We are doing so much to protect the unfit, we realize that if we do
+                not lessen the supply, our race will be swamped ; and that brings us under one of
+                the most piercing searchlights that ever illuminated the path of the race.
+                Searchlights as a rule are supposed to light up the path behind . This one searches
+                the way to the fore. We demand not only the protection of the unfit, but the
+                protection of the unborn. This may mean a decreased birth rate as to numbers. We can
+                stand a decreased birth rate as to quantity if it means a higher average as to
+                quality . Athens, not China, typifies civilization for us. </p>
+            <p> Nor do I see a symptom of decadence <ptr xml:id="n7" target="#decadence" n="7"/> in
+                modern divorce . We called appendicitis by an other name long ago and let the
+                patient die . To-day, we apply the surgeon's knife and save the life . I see in
+                divorce not evidence of secret vice, but a life-saving knife. The Service of the
+                Race is the only criterion by which we can judge it; and God is served best, not by
+                kow -towing to what others may think, not by taking out an insurance policy for
+                ourselves to secure a future Heaven of which we can know nothing , but by securing
+                as much as possible of the Kingdom of Heaven for others and our selves on this
+                earth. </p>
+            <p>Granted it may all mean a new chivalry, a new womanhood, a new race, a new religion .
+                Have we so little faith in the old that we fear for the full flower that may burgeon
+                in the new ? </p>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note type="vocabulary" xml:id="querulous" target="#n1" n="1">Adjective: Complaining in
+                a petulant or whining manner.</note>
+
+            <note type="vocabulary" xml:id="tempestuous" target="#n2" n="2">Adjective:
+                Characterizted by strong and turbulent or conflicting emotion; very stormy</note>
+
+            <note type="historicalevent" xml:id="IndianWars" target="#n3" n="3"> Indian Wars:
+                1609-1924 (Intermittent) Also called American Indian Wars. Took place in North
+                America between Indians and American settlers, mainly over power of land. The
+                outcomes consist of sovereignty of various armies extended or lost, a massive
+                decrease in indigenous population, deportation and forced assimilation of indigenous
+                tribes. Also many treaties, truces were made and broken, and Indian reservations
+                were established in the United States and Canada.</note>
+
+            <note type="historicalevent" xml:id="Quakerassembly" target="#4" n="4"> The Quakers
+                movement was apart of the early settlement of American and popular among the
+                thirteen colonies. By the eighteenth century, many Quakers held poisitons of power
+                but during the French and Indian War caused most Quakers to leave their governing
+                positions to focus on religious reform. </note>
+
+            <note type="vocabulary" xml:id="bifurcated" target="#5" n="5"> Verb: Divide into two
+                branches or forks.</note>
+
+            <note type="vocabulary" xml:id="capricious" target="#6" n="6"> Adjective: Given to
+                sudden and unaccountable changes of mood or behavior.</note>
+
+            <note type="vocabulary" xml:id="decadence" target="#7" n="7"> Noun: Moral or cultural
+                decline as characterized by excessive indulgence in pleasure or luxury.</note>
+
+            <note type="historicalperson" xml:id="JeanIngelow" target="8" n="8"> Jean Ingelow- 17
+                March 1820 – 20 July 1897, An English poet and novelist who wrote stories for
+                children.</note>
+
+            <note type="historicalperson" xml:id="FeliciaHemans" target="9" n="9"> Felicia Hemans-
+                25 September 1793 – 16 May 1835, An English poet. </note>
+
+        </listAnnotation>
+    </standOff>
+</TEI>
