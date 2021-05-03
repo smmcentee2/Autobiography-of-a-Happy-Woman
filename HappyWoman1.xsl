@@ -12,7 +12,7 @@
                    <link rel="stylesheet" type="text/css" href="happy_woman.css"/>
                </head>
             <body>
-                <p> source <a href="final%20project.xml">XML</a>, <a href="HappyWoman.xsl">
+                <p> source <a href="Chapter_1.xml">XML</a>, <a href="HappyWoman1.xsl">
                     XSLT</a>, and <a href="happy_woman.css"> CSS</a> </p>
                 <xsl:apply-templates/>
             </body>
