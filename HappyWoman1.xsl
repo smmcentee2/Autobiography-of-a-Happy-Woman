@@ -13,7 +13,7 @@
                </head>
             <body>
                 <p> source <a href="final%20project.xml">XML</a>, <a href="HappyWoman.xsl">
-                    XSLT</a>, and <a href="Happy.css"> CSS</a> </p>
+                    XSLT</a>, and <a href="happy_woman.css"> CSS</a> </p>
                 <xsl:apply-templates/>
             </body>
         </html>
