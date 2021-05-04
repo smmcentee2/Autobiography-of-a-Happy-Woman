@@ -16,7 +16,16 @@
             <body>
                 <p class="special">See the source <a href="happy_woman_9.xml">XML</a>, <a
                     href="happy_woman_9.xsl">XSLT</a>, and <a href="happy_woman.css">CSS</a>.</p>
+                <a href="https://smmcentee2.github.io/Autobiography-of-a-Happy-Woman/">Back to
+                    Home</a>
                 <xsl:apply-templates/>
+                <p class="copyright"><a rel="license"
+                    href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                    alt="Creative Commons License" style="border-width:0"
+                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a><br/>This work
+                    is licensed under a <a rel="license"
+                    href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                    Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
             </body>
         </html>
     </xsl:template>
