@@ -11,7 +11,7 @@
                 <link rel="stylesheet" type="text/css" href="happy.css"/>
             </head>
             <body>
-                <p> Return to the <a href="https://smmcentee2.github.io/Autobiography-of-a-Happy-Woman/"> Homepage </p>
+                <p> Return to the <a href="https://smmcentee2.github.io/Autobiography-of-a-Happy-Woman/"> Homepage </a> </p>
                 <p> See the source <a href="Chapter%207%20-%20New.xml"> XML </a> , <a href="HappyWomanNew.xsl">
                         XSLT</a> , and <a href="happy.css"> CSS </a></p>
                 <xsl:apply-templates/>
