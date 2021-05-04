@@ -18,6 +18,11 @@ p.special {
     text-align:right
 }
 
+.copyright {
+    text-align: center;
+    margin-top: 100px
+}
+
 ul {
     list-style-type: none;
     margin: 0px;
