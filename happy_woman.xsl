@@ -27,10 +27,17 @@
 
 
     <xsl:template match="tei:ptr">
-      <xsl:element name="a"> <xsl:attribute name="id"> <xsl:value-of select="@xml:id"
+     <h4> 
+         <xsl:apply-templates select="tei:idno"/>
+         <xsl:element name="a"> <xsl:attribute name="id"> <xsl:value-of select="@xml:id"
         /></xsl:attribute> <xsl:attribute name="href"> <xsl:value-of select="@target"/>
         </xsl:attribute>*</xsl:element>
+        </h4>
+        <xsl:for-each select="tei:note">
+            <p>
       <xsl:apply-templates/>
+            </p>
+            </xsl:for-each>
     </xsl:template>
     
 
